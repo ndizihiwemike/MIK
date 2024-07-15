@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styled</title>
+    <style>
+       /*
+       write tour content here
+       selector{
+        attribute: value;
+       }
+       class selector, id selectors, tag selectors
+       */
+       h1{
+        color: red;
+        background: dodgerblue;
+        background: linear-gradient(to bottom, transparent, dodgerblue);
+        background: radial-gradient(circle, red, green);
+        background: url(./IMG-20230224-WA0051.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;/*cover, contain, auto*/
+        background-position: top;/* top, bottom, center*/
+        font-size: 30px;
+        font-weight: 900;
+        font-family: Arial;
+        padding: 15px;
+        text-align: center;
+       }
+        .p{
+            color: dodgerblue;
+            text-indent: 20px;
+            line-height: 20px;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            text-align: justify;
+            text-decoration: none;
+            text-transform: capitalize;
+            background: greenyellow;
+            padding: 10px 5%;
+        }
+        #p{
+            color: orangered;
+            display: none;
+        }
+        .div{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            align-content: center;
+            background: palevioletred;
+        }
+        .div div{
+            width: 50%;
+            margin: 2px;
+            flex-wrap: 1;
+            padding: 20px;
+        }
+        .div div:nth-child(even){
+            background: orange;
+        }
+        .div div:nth-child(odd){
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>PROGRAMMING CLASS.MIKE</h1>
+    <P class="p">The tag defines all tables in an HTML document. To make it easier for you to
+        hard­code your table, you should always remember that HTML tables work first with
+        rows (designated by the  tag) , then columns (defined by the <td> tag).
+        </P>
+        <P id="p">THIS IS MY LAST P: </P>
+        <div class="div">
+            <div>
+                <p>hello mike</p>
+                <button>CLICK ME</button>
+            </div>
+            <DIV>
+                <P>HELLO FREINDS</P>
+                <a href="">FACEBOOK</a>
+            </DIV>
+        </div>
+</body>
+</html>

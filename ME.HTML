@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSP</title>
+    <style>
+        h1{
+            color: yellow;
+        background: dodgerblue;
+        background: linear-gradient(to bottom, transparent, dodgerblue);
+        background: radial-gradient(circle, red, green);
+        background: url(./InShot_20230313_083235666.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;/*cover, contain, auto*/
+        background-position: top;/* top, bottom, center*/
+        font-size: 30px;
+        font-weight: 800;
+        font-family: Arial;
+        padding: 20px;
+        text-align: center;
+        animation-name: colored;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        }
+        .form,label{
+            padding: 10px;
+        color: blue;
+        font-size: 25px;
+        font-style: inherit;
+        font-weight: 900;
+        font-family: Arial;
+        border: 10px solid green;
+        }
+        .form,label,input{
+            padding: 5px 20px;
+        color: rgb(237, 15, 107);
+        font-size: 20px;
+        font-style:inherit;
+        font-weight: 600;
+        font-family: Arial;
+        margin: 10px;
+        border: 5px solid green;
+        border-radius: 10vh;
+    
+        line-height: 25px;
+        }
+        button{
+            padding: 20px;
+            border: solid 10px orchid;
+            border-radius: 20vh;
+            bottom: 50%;
+            font-size: 15px bold;
+            color: rgb(71, 12, 207);
+            text-align: 50%;
+            align-items: center;
+
+
+        }
+        @keyframes colored{
+            0%{
+                color: rgb(247, 95, 8);
+            }
+            50%{
+                color: rgb(128, 119, 0);
+
+            }
+            100%{
+                color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>ROOT AND VINE <br />LIFE STYLE CENTER</h1>
+    <form action="method=">
+        <label for="username">Username</label>
+        <input type="text" placeholder="Username"><br />
+        <label for="Age">Age</label>
+        <input type="number" placeholder="enter age"><br />
+        <label for="Religion">Religion</label>
+        <input type="text" placeholder="enter your religion"><br />
+        <label for="Marital status">Marital status</label>
+        <select name="marital status">
+            <option value="Married">Married</option>
+            <option value="Single">Single</option>
+        </select><br />
+        <label for="Phone number">Phone number</label>
+        <input type="number" placeholder="enter your number"><br/>
+        <label for="C/O">C/O</label>
+        <input type="text"placeholder="enter what's paining"><br />
+        <label for="Diagnosis">Diagnosis</label>
+        <input type="text" placeholder="enter your disease"><br />
+        <label for="Rx">Rx</label>
+        <input type="text" placeholder="enter medication given"><br />
+        <label for="Payments">Payments</label>
+        <input type="number" placeholder="enter payments made"><br />
+        <label for="Balance">Balance</label>
+       <input type="number" placeholder="enter balance">
+       <label for="pay">Pay</label>
+       <select name="Pay">
+        <option value="Paid">Paid</option>
+        <option value="Not-paid">Not-paid</option>
+       </select><br />
+       <button BTN="1">SAVE</button>
+       <BUtton BTN="2">NEXT</BUtton>
+    </form>
+</body>
+</html>

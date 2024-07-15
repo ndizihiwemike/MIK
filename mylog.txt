@@ -1,0 +1,6 @@
+
+{
+  "error id": 1,
+  "process": "creation of the user",
+  "error": "user already defined"
+}

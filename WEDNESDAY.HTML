@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEDNESDAT CLASS</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .div{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            grid-gap: 10px;
+            /*grid-template-row: 10px 15px;*/
+        };
+        .div div :nth-child(2){
+            grid-column: 2 / 3;
+        }
+        .div div :nth-child(even){
+            background: #008b8b;
+        }
+        .div div :nth-child(odd){
+            background: tomato;
+        }
+        .div2{
+            position: relative;
+            height: 40vh;
+            background: hotpink;
+        }
+        .div2 div:nth-child(1){
+            position:static;
+            bottom: 20px;
+        }
+        .div2 div:nth-child(2){
+            position:absolute;
+            bottom: 20px;
+            background: indigo;
+        }
+        .div3{
+            position: fixed;
+            
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50% -50%);
+            width: 100%;
+            
+            overflow: hidden;
+            background: indianred;
+        }
+        .pp{
+            background: rgb(0, 255, 42);
+            color: rgb(16, 241, 35);
+            position: sticky;
+            top: 0;
+        }
+        @media only screen and (max-width: 500px){
+            .div{
+            display: grid;
+            grid-template-columns: auto auto auto
+        }
+    }
+       
+    </style>
+</head>
+<body>
+    <div class="div">
+        <div>
+            <h1>content1</h1>
+            <p>some paragraph content</p>
+        </div>
+        <div>
+            <h1>content2</h1>
+            <p>some paragraph content</p>
+        </div>
+        <div>
+            <h1>content3</h1>
+            <p>some paragraph content</p>
+        </div>
+        <div>
+            <h1>content4</h1>
+            <p>some paragraph content</p>
+        </div>
+        <div>
+            <h1>content5</h1>
+            <p>some paragraph content</p>
+        </div>
+        <div>
+            <h1>content6</h1>
+            <p>some paragraph content</p>
+        </div>
+    </div>
+    <p>ALLEN: This claim is of course false. The RSV and all the modern Bibles have many passages 
+        like Luke 24:36-42 and John 20:10-21:24 that record Jesus appearing to Mary Magdala, to His 
+        disciples, and to Thomas after His resurrection. They also state in I Cor 15:5,6 that Jesus 
+        appeared to over 500 after His resurrection. This passage in Mark 16:9-20 is not found in the 
+        most reliable Greek manuscripts, and is not believed to have been in the original by the experts 
+        on manuscripts. No teaching of Scripture is lost without this passage. This passage in Mark 
+        does present difficult concepts about handing snakes and drinking poison .</p>
+    <div class="div2">
+        <div>
+            <h1>hello there</h1>
+            <p>i have no meaning</p>
+        </div>
+        <div>
+            <h1>hello there my brother</h1>
+            <p>i have no meaning</p>
+        </div>
+    </div>
+    <p>ALLEN: That sentence is found in Mark 9:48 in the NIV and RSV. The fact is that it wasn’t 
+        crossed out in verses 44 and 46 because it was not there to begin with. But it was simply added 
+        by scribes to verses 44 and 46 following the same phrase that preceded that sentence in verse 48. 
+        The better scribes knew the text of the Scriptures, the more likely they were to harmonize one 
+        passage to agree with parallel ones in another Bible book. The scribe might write the added 
+        word or passage in the margin, and later scribes would add it to the text. This is called 
+        harmonization. Words and verses added by this process were accepted as Scripture. Bibles 
+        based on manuscripts prior to this harmonization are often accused of leaving material out – “it is 
+        missing!” In truth, it is not “missing” – it was added!</p>
+    <div class="div3">
+        <div>
+            <h1>greetings</h1>
+            <p>hi michella</p> 
+        </div>
+        <p>VEITH: And this one is the bomber. Do you know how much debate there is today about the 
+            trinity, and they say, “Trinity is NOT DOCTRINE OF THE BIBLE! It has to be removed.” And 
+            that’s why you cannot prov</p>
+    </div>
+</body>
+</html>
